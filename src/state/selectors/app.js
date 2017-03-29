@@ -15,3 +15,8 @@ export const getStories = createSelector(
   getAppState,
 propOr([], 'stories'),
 );
+
+export const getTestData = createSelector(
+  getAppState,
+propOr([], 'testData'),
+);
